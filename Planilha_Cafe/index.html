@@ -9,6 +9,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
 
+        <script>
+
+            function funcao1(){
+                alert("Dados enviados com sucesso!");
+            }
+
+            function funcao2(){
+                alert("Formulário limpo!");
+            }
+
+        </script>
+
         <title>Planilha Café</title>
 
     </head>
@@ -100,13 +112,13 @@
 
                 <div class="button">
                 
-                    <button type="submit">Enviar</button>
+                    <button type="submit" onclick="funcao1()" value="Exibir alert">Enviar</button>
 
                 </div>
 
                 <div class="button">
                 
-                    <button type="reset">Limpar</button>
+                    <button type="reset" onclick="funcao2()" value="Exibir alert">Limpar</button>
 
                 </div>
 
