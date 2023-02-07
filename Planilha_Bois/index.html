@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+            function funcao1(){
+                alert("Dados enviados com sucesso");
+            }
+
+            function funcao2(){
+                alert("Formulário limpo!");
+            }
+        </script>
+
+        <title>Planilha Bois</title>
+
+    </head>
+
+    <body>
+
+        <div id="principal">
+
+            <form id="form" action="https://api.sheetmonkey.io/form/iKnCUfGnrak37VdC1vmj12" method="POST">
+                <h1>Planilha de Controle Bois</h1>
+
+                <div>
+
+                    <label>Data</label>
+                    <input type="date" name="data">
+
+                </div>
+                
+                <div>
+
+                    <label>Lote</label>
+                    <input type="text" name="lote">
+
+                </div>
+
+                <div>
+
+                    <label>Tipo</label>
+                    <input type="text" name="tipo" placeholder="boi, vaca ou bezerro">
+
+                </div>
+
+                <div>
+
+                    <label>Sexo</label>
+                    <input type="text" name="sexo" placeholder="fêmea ou macho">
+
+                </div>
+
+                <div>
+
+                    <label>Com quantos arrobas chegou o lote</label>                        
+                    <input type="number" name="arrobasiniciais">
+
+                </div>
+
+                <div>
+
+                    <label>Valor pago no arroba (compra)</label>
+                    <input type="number" name="valorpagocompra">
+
+                </div>
+
+                <div>
+
+                    <label>Com quantos arrobas o lote foi vendido</label>
+                    <input type="number" name="arrobasfinais">
+
+                </div>
+                        
+                <div>
+
+                    <label>Valor pago no arroba (venda)</label>
+                    <input type="number" name="valorpagovenda">
+
+                </div>
+
+                <div>
+
+                    <label>Gastos com Sal</label>
+                    <input type="number" name="sal">
+
+                </div>
+
+                <div>
+
+                    <label>Gastos com Vacina e Remédios</label>
+                    <input type="number" name="vacina">
+
+                </div>
+
+                <div>
+                    
+                    <label>Gastos com Ração</label>
+                    <input type="number" name="racao">
+
+                </div>
+
+                <div class="button" onclick="funcao1()" value="Exibir Alert">
+                    <button type="submit">Enviar</button>
+                </div>
+    
+                <div class="button" onclick="funcao2()" value="Exibir Alert">
+                    <button type="reset">Limpar</button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <script src="./script.js"></script>
+
+    </body>
+
+</html>
