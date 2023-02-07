@@ -1,4 +1,4 @@
-# F-rmul-rio-HTML
+# Formulario-HTML
 A ideia desse projeto é criar dois formulários diferentes, usando HTML e linkados com planilhas do Google Sheets.
 O primeiro formulário é referente à controle de gastos e lucros na produção cafeicultora, enquanto o segundo formulário
 é referente à controle de gastos e lucros na pecuária, especificamente, na criação de gado para corte.
